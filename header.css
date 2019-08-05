@@ -1,0 +1,269 @@
+@media (min-width: 1198px) {
+  img {
+    visibility: hidden;
+    overflow: hidden;
+  }
+
+  .header {
+    /* border: 1px solid yellow; */
+    text-align: center;
+    color: #fff;
+    background-image: url("./src/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 78vh;
+    font-family: "Marcellus", serif;
+  }
+
+  .navbar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    background-color: #212529;
+    position: fixed;
+    top: 0vh;
+  }
+
+  li:hover {
+    color: #fec810;
+  }
+
+  .navbar > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 33%;
+    height: 100%;
+    font-size: 21px;
+    cursor: pointer;
+    /* margin: 10%; */
+    margin: 0 0 3px 0;
+  }
+
+  .start-bootstrap {
+    display: flex;
+    /* border: 1px solid green; */
+    width: 50%;
+    font-size: 25px;
+    color: #fed136;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Marck Script", cursive;
+    font-size: 35px;
+    margin: 10%;
+  }
+
+  .greeting {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 62vh;
+    margin-top: 100px 0px;
+  }
+
+  .greeting > h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    padding-bottom: 1%;
+  }
+
+  .greeting > h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+
+  .tell {
+    background-color: #fec810;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+@media (min-width: 924px) {
+  .header {
+    /* border: 1px solid yellow; */
+    text-align: center;
+    color: #fff;
+    background-image: url("./src/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 78vh;
+    font-family: "Marcellus", serif;
+  }
+
+  .navbar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    background-color: #212529;
+    position: fixed;
+    top: 0vh;
+  }
+
+  li:hover {
+    color: #fec810;
+  }
+
+  .navbar > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 33%;
+    height: 100%;
+    font-size: 21px;
+    cursor: pointer;
+    /* margin: 10%; */
+    margin: 0 0 3px 0;
+    visibility: hidden;
+  }
+
+  img {
+    display: flex;
+    height: 20%;
+    width: 500px;
+    /* font-size: 110px; */
+  }
+
+  .start-bootstrap {
+    display: flex;
+    /* border: 1px solid green; */
+    width: 50%;
+    font-size: 25px;
+    color: #fed136;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Marck Script", cursive;
+    font-size: 35px;
+    margin: 10%;
+  }
+
+  .greeting {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 62vh;
+    margin-top: 100px 0px;
+  }
+
+  .greeting > h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    padding-bottom: 1%;
+  }
+
+  .greeting > h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+
+  .tell {
+    background-color: #fec810;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    /* border: 1px solid yellow; */
+    text-align: center;
+    color: #fff;
+    background-image: url("./src/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 78vh;
+    font-family: "Marcellus", serif;
+  }
+
+  .navbar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    background-color: #212529;
+    position: fixed;
+    top: 0vh;
+  }
+
+  li:hover {
+    color: #fec810;
+  }
+
+  .navbar > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 33%;
+    height: 100%;
+    font-size: 21px;
+    cursor: pointer;
+    /* margin: 10%; */
+    margin: 0 0 3px 0;
+  }
+
+  .start-bootstrap {
+    display: flex;
+    /* border: 1px solid green; */
+    width: 50%;
+    font-size: 25px;
+    color: #fed136;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Marck Script", cursive;
+    font-size: 35px;
+    margin: 10%;
+  }
+
+  .greeting {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 62vh;
+    margin-top: 100px 0px;
+  }
+
+  .greeting > h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    padding-bottom: 1%;
+  }
+
+  .greeting > h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+
+  .tell {
+    background-color: #fec810;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px;
+  }
+}
